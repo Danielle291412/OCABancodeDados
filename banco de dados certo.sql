@@ -8,12 +8,6 @@ CREATE TABLE tb_aluno (
  cpf VARCHAR(11)
 );
 
-CREATE TABLE tb_aluno (
- cd_aluno INT AUTO_INCREMENT PRIMARY KEY,
- nm_aluno VARCHAR(45),
- cpf VARCHAR(11)
- );
-
 create user 'Danielle'@'localhost' identified by '1234';
 grant all privileges on *.* to 'Danielle'@'localhost';
 
